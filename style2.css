@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap%27');
+@import url('https://fonts.googleapis.com/css2? family= Lato:wght@300 & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@700&display=swap');
+@import url('https://www.1001fonts.com/ungai-font.html?text=la%20Crytpo%20monnaie');
+
+
+.hiking{
+    background-image: url("hiking.jpg");
+    background-size: 100%;
+}
+.black{
+    background-image: url("black.jpg");
+    background-size: 100%;
+}
+h1{
+    color: white;
+    text-align: center;
+    margin-top: 325px;
+    font-family: 'Cabin';
+    font-size: 80px;
+  }
+  
+nav .onglets .boutton1{
+    color: white;
+    text-align: right;
+    left: 480px;
+    top: 15px;
+    cursor: pointer;
+    list-style-type: none;
+    text-decoration:none;
+    padding: 10px;
+    position:relative;
+    gap: 1em;
+    font-family: 'Cabin';
+     
+  }
+
+nav .onglets .boutton1{
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  
+  }
+nav .onglets .boutton1:hover,
+nav.onglets .boutton1:focus {
+      border-radius: 2rem;
+      border: 1px solid black;
+      background-color: gray;
+      
+  
+  }
+.recherche{
+    display:flex;
+    flex-wrap:wrap;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 15px;
+    border-radius: 2rem;
+  }
+.p1{
+      color: white;
+      font-size: 20px;
+      text-decoration: none;
+      font-family: 'Cabin';
+
+  }
+.p2text{
+    color: white;
+    font-family: 'Cabin';
+    text-align: center;
+    margin-top: -55px;
+  }
+h2{
+  color: white;
+  text-align: center;
+  margin-top: 105px;
+  font-family: 'Cabin';
+  font-size: 40px;
+}
+.copyright1 {
+  bottom: 50px;
+  left: 10px;
+  position: absolute;
+  z-index: 1;
+  color: rgb(97, 97, 97);
+  }
+.image{
+    margin-left: 715px;
+  }
+.copyright2 {
+    bottom: 190px;
+    left: 730px;
+    position: absolute;
+    z-index: 1;
+    color: rgb(97, 97, 97);
+    }
+
+    
